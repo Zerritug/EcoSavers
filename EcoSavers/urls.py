@@ -21,4 +21,5 @@ from Homepage import views,models
 urlpatterns = [
     path('admin/', admin.site.urls),
     path ('HomePage/',include ('Homepage.urls')),
+    path ('Educacion/',include ('Educacion.urls')),
 ]
