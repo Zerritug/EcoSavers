@@ -1,8 +1,6 @@
-from django.http import HttpRequest,HttpResponse,JsonResponse
-from django.shortcuts import render
-from django.urls import path,include
-from . import views,models
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('',views.inicioprueba),
+    path('', views.inicioprueba, name='Prueba'),
 ]
