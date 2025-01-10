@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Site{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<nav>
+
+    <ul>
+        <img src="{% static 'MUJV.png' %}" alt="" width="50 px" height="50 px">
+        <li>
+            <button><a href="/HomePage">Home</a></button>
+
+        </li>
+        <li>
+            <button><a href="/Prueba">Prueba</a></button>
+            
+        </li>
+        <li>
+           <button> <a href="/Educacion">Educacion</a></button>
+
+        </li>
+        <li>
+            <button><a href="/PaginaDeInicio">PaginaDeInicio</a></button>
+            
+        </li>
+    </ul>
+</nav>
+
+{%block content%}
+{%endblock%}
+
+</body>
+</html>
