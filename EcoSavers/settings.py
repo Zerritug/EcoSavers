@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Homepage',
     'Educacion',
     'Noticias',
+    'Prueba',
 ]
 
 MIDDLEWARE = [
