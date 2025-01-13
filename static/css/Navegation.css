@@ -1,51 +1,101 @@
+@import url();
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0; /* Color de fondo opcional */
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-nav ul {
-    border: 2px solid rgb(197, 197, 197);
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+#NAVS {
     display: flex;
-    justify-content: flex-start; /* Mueve los elementos a la izquierda */
-    align-items: center; /* Centra los elementos verticalmente */
-    background-image: linear-gradient(to bottom, #ffffff, #d3d3d3);
+    justify-content: center; 
+    margin: auto;
+    align-items: center; 
+    width: 97%;
+    height: 25px;
+    background-image: linear-gradient(to bottom, #ffffff, #d1d1d1);
+
 }
 
-nav ul .img {
-    margin-right: 40px; /* Ajusta este valor según sea necesario */
-    padding-right: 100px;
+nav  {
+    width:fit-content;
+    margin: auto;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+
+nav button  {
+    background-color: transparent;
+    border: none;
+    color: transparent; 
+    
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-nav ul li button {
-    background-color: rgb(23, 143, 57);
+nav button  a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #178f39;
     border-radius: 40px;
     cursor: pointer;
-    padding: 10px 70px;
-    margin-left: 40px;
-
+    margin: 1px 1px;
+    padding: 15px 20px;
     font-size: 16px;
     border: 2px solid rgb(255, 255, 255);
     color: white;
     transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    
 }
 
-nav ul li button:hover {
-    background-color: #e1f7e9;
+
+
+nav button a:hover {
+    background-color: #0c2717;
     color: rgb(255, 255, 255); 
     border: 2px solid #0c2717;
 }

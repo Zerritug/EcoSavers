@@ -1,8 +1,91 @@
 {% extends 'Headers.html' %}
 {% load static %}
 {% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresas</title>
+    <link rel="stylesheet" href="{% static 'css/Empresas.css' %}">
+</head>
+<body>
+   <header>
+        <h1>Empresas</h1>
+        <br>
+        <h4>Bienvenido Z</h4>
+   </header>
+   <main id="base">
+    <div class="buscador">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 612.08 612.08" style="enable-background:new 0 0 612.08 612.08;" xml:space="preserve">
+            <g>
+                <path d="M237.927,0C106.555,0,0.035,106.52,0.035,237.893c0,131.373,106.52,237.893,237.893,237.893   c50.518,0,97.368-15.757,135.879-42.597l0.028-0.028l176.432,176.433c3.274,3.274,8.48,3.358,11.839,0l47.551-47.551   c3.274-3.274,3.106-8.703-0.028-11.838L433.223,373.8c26.84-38.539,42.597-85.39,42.597-135.907C475.82,106.52,369.3,0,237.927,0z    M237.927,419.811c-100.475,0-181.918-81.443-181.918-181.918S137.453,55.975,237.927,55.975s181.918,81.443,181.918,181.918   S338.402,419.811,237.927,419.811z"/>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            </svg>
+            <input type="text" id="search" placeholder="Buscar" w>
+    </div>
+        
+        <div class="empresasbloque">
 
-    <h1>Empresas</h1>
-    <p>En esta seccion podras encontrar informacion sobre las empresas que colaboran con nosotros</p>
+            <div class="empresa">
+                <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesarSidePart&accessoriesType=Round&hairColor=Blue&facialHairType=MoustacheMagnum&facialHairColor=Platinum&clotheType=ShirtCrewNeck&clotheColor=Pink&eyeType=Cry&eyebrowType=Default&mouthType=Serious&skinColor=Light'width='200px' height="200px"/>
+                <div class="carrusel" w>
+                </div>
+                <p>EcoTech Solutions: EcoTech Solutions es una empresa líder en el reciclaje de residuos electrónicos. Con un enfoque en la sostenibilidad y la innovación, EcoTech Solutions se dedica a la recolección, desmantelamiento y reciclaje de dispositivos electrónicos obsoletos. Su misión es reducir el impacto ambiental de los desechos electrónicos mediante procesos eficientes y seguros. Además, EcoTech Solutions ofrece programas educativos para concienciar a la comunidad sobre la importancia del reciclaje electrónico.</p>
+                <button>Ver mas</button>
+            </div>
+
+            <div class="empresa">
+                <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=MoustacheMagnum&facialHairColor=Red&clotheType=ShirtScoopNeck&clotheColor=PastelYellow&eyeType=Wink&eyebrowType=FlatNatural&mouthType=Smile&skinColor=Yellow' width='200px' height="200px"/>
+                <div class="carrusel">
+                </div>
+                <p>GreenWave Recycling: GreenWave Recycling es una empresa comprometida con la protección del medio ambiente a través del reciclaje de equipos electrónicos. Ofrecen servicios de recolección y reciclaje para empresas y particulares, asegurando que los materiales peligrosos sean manejados de manera responsable. GreenWave Recycling también colabora con organizaciones sin fines de lucro para donar equipos reutilizables a comunidades necesitadas, promoviendo así la reutilización y la reducción de residuos.</p>
+                <button>Ver mas</button>
+            </div>
+
+            <div class="empresa">
+                <img src='https://avataaars.io/?avatarStyle=Circle&topType=Turban&accessoriesType=Kurt&hatColor=Gray01&facialHairType=MoustacheMagnum&facialHairColor=Black&clotheType=Overall&clotheColor=Gray01&eyeType=EyeRoll&eyebrowType=UnibrowNatural&mouthType=Grimace&skinColor=Brown'width='200px' height="200px"/>
+                <div class="carrusel">
+                </div>
+                <p>TechCycle Innovations: TechCycle Innovations se especializa en la gestión integral de residuos electrónicos, desde la recolección hasta el reciclaje y la disposición final. Con un equipo de expertos en tecnología y medio ambiente, TechCycle Innovations garantiza que los dispositivos electrónicos sean reciclados de manera segura y eficiente. La empresa también se enfoca en la recuperación de materiales valiosos, como </p>
+                <button>Ver mas</button>
+            </div>
+
+
+        </div>
+   </main>
+
+</body>
+</html>
 
 {% endblock %}
