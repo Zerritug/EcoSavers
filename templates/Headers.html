@@ -5,34 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}My Site{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Navegation.css' %}">
 </head>
 <body>
-<nav>
-
-    <ul>
-        <img src="{% static 'MUJV.png' %}" alt="" width="50 px" height="50 px">
-        <li>
-            <button><a href="/HomePage">Home</a></button>
-
-        </li>
-        <li>
-            <button><a href="/Prueba">Prueba</a></button>
-            
-        </li>
-        <li>
-           <button> <a href="/Educacion">Educacion</a></button>
-
-        </li>
-        <li>
-            <button><a href="/PaginaDeInicio">PaginaDeInicio</a></button>
-            
-        </li>
-    </ul>
-</nav>
-
-{%block content%}
-{%endblock%}
-
+<div class="NAVS">
+    <nav>
+        <img src="{% static 'LOGOSINFONDO.png' %}" alt="" width="50 px" height="50 px">
+        <button><a href="/HomePage">Home</a></button>
+        <button><a href="/Empresas">Empresas</a></button>
+        <button><a href="/Educacion">Educacion</a></button>
+        <button><a href="/PaginaDeInicio">PaginaDeInicio</a></button>
+        <button><a href="">IniciarSesion</a></button>
+        <button><a href="">Registrarse</a></button>
+        <div>
+          
+        </div>
+    </nav>
+</div>
+{% block content %}
+{% endblock %}
 </body>
 </html>

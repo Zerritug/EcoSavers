@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'Homepage',
     'Educacion',
     'Noticias',
-    'Prueba',
+    'Empresas',
     'PaginaInicial',
 ]
 
